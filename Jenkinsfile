@@ -16,6 +16,7 @@ pipeline {
     stage('fun3') {
       steps {
         echo 'funny '
+        sleep 1
       }
     }
 
