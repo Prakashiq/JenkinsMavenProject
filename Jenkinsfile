@@ -15,8 +15,8 @@ pipeline {
 
     stage('fun3') {
       steps {
-        echo 'funny '
         sleep 1
+        sh 'echo "script me"'
       }
     }
 
