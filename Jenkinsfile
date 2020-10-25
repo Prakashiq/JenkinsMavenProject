@@ -16,7 +16,7 @@ pipeline {
     stage('fun3') {
       steps {
         sleep 1
-        sh 'echo "script me"'
+        sh 'sh \'echo Edited Placeholder.\''
       }
     }
 
