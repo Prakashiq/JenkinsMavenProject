@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'node1'
-    }
-
-  }
+  agent any
   stages {
     stage('fun1') {
       steps {
@@ -12,8 +7,5 @@ pipeline {
       }
     }
 
-  }
-  environment {
-    env = 'l1'
   }
 }
