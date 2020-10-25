@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('fun2') {
+      steps {
+        echo 'funny boy'
+      }
+    }
+
   }
 }
